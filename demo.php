@@ -19,7 +19,7 @@ if (isset($_GET['type'])) {
     $type = '1';
 }
 
-
+notificationAllMobileUser($title, $messageBody, $image, $type);
 
 function notificationAllMobileUser($title, $messageBody, $image, $type)
 {
